@@ -1,15 +1,15 @@
 # CATnaPS
 Computer Assisted Tools for [choose your acronym] Patristics Scholars
-aka *Ancient Christian Texts and Comparanda in CATSS/BGM CSV format*
+aka *Ancient Christian Texts and Comparanda in BGM CSV format*
 
 ## Purpose
 
-This repository prunes down openly available, complex syntactical treebanks (XML and CoNNL-U) into simple CSV files in the CATSS/BGM format, i.e., the Computer Assisted Tools for Septuagint/Scripture Studies, or BibleWorks Greek Morphology.
+This repository prunes down openly available, complex syntactical treebanks (XML and CoNNL-U) into simple CSV files in the BGM (BibleWorks Greek Morphology) format, i.e., a condensed form of the encodings first developed by the Computer Assisted Tools for Septuagint/Scripture Studies at the University of Pennsylvania.
 
 Essentially, texts are presented in their normal running sequence, but each word is split into two parts, and a "@" delimiter is put between them, kind of like an email address. 
 The part to the left of the "@" symbol is the standard dictionary word form (lemma).
 
-The part to the right is the one to seven character CATSS/BGM morphological tag describing the word form (part of speech, person, number, tense, mood, voice, gender, case, and degree). A key to the CATSS/BGM schema is available on [Zenodo](https://doi.org/10.5281/zenodo.10066745). 
+The part to the right is the one to seven character BGM morphological tag describing the word form (part of speech, person, number, tense, mood, voice, gender, case, and degree). A key to the BGM schema is available on [Zenodo](https://doi.org/10.5281/zenodo.10066745). 
 
 This format has several advantages for computational linguistics research:
 - it reflects the internal reference structure of documents (e.g., books, sections, chapters, verses, line numbers), making it easier to correlate with human readable editions and translations
@@ -18,7 +18,7 @@ This format has several advantages for computational linguistics research:
 - it allows for a range of searches, from simple word searches to more advanced regex searches of multiple word strings and morphological patterns
 - it simplifies document retrieval and identification by providing just one file per document
 
-These advantages are shared with the AGDTiny repository. But the CATSS/BGM data may be easier for many to use, can usually be searched with shorter and less complex regex strings, and its strings lend themselves more easily to citation in scholarly publications.
+These advantages are shared with the AGDTiny repository. But the BGM data may be easier for many to use, can usually be searched with shorter and less complex regex strings, and its strings lend themselves more easily to citation in scholarly publications.
 
 ## File and Directory Names and Structures
 
@@ -38,13 +38,13 @@ All document filenames use this author.work composite key as a prefix, with peri
 
 > *The Gospel of Matthew has the composite cts_urn identifier tlg0031.tlg001.*
 
-The middle part of the filename identifies the project or group, in our case, "catss", followed by a hyphen.
+The middle part of the filename identifies the project or group, in our case, "bgm", followed by a hyphen.
 
-> *The Gospel of Matthew within this project is known as tlg0031.tlg001.catss-*
+> *The Gospel of Matthew within this project is known as tlg0031.tlg001.bgm-*
 
 Finally, the filename suffix reflects the language and version. Currently, Greek is the only language in use, and typically only one version exists for each work.
 
-> *The entire filename for the Gospel of Matthew here is tlg0031.tlg001.catss-grc1.txt*
+> *The entire filename for the Gospel of Matthew here is tlg0031.tlg001.bgm-grc1.txt*
  
 ## Text Structure
 
