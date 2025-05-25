@@ -81,11 +81,11 @@ Elsewhere I have archived a [simple comparison of documents in the OGA and GLAUx
 
 The OGA corpus was described in this earlier article that corresponds to v0.1.0, which is the preferred publication for citation.
 
-> Celano, Giuseppe A. "Opera Graeca Adnotata: Building a 34M+ Token Multilayer Corpus for Ancient Greek". arXiv cs.CL. 2024-03-14. https://doi.org/10.48550/arXiv.2404.00739.
+> Celano, Giuseppe A. "Opera Graeca Adnotata: Building a 34M+ Token Multilayer Corpus for Ancient Greek". arXiv cs.CL. 2024-03-14. doi: [10.48550/arXiv.2404.00739](https://doi.org/10.48550/arXiv.2404.00739).
 
 The GLAUx corpus was described in this earlier article:
 
-> Keersmaekers, Alek (2021): The GLAUx corpus: methodological issues in designing a long-term, diverse, multi-layered corpus of Ancient Greek. *Proceedings of the 2nd International Workshop on Computational Approaches to Historical Language Change 2021*, 39–50. Online: Association for Computational Linguistics. doi:10.18653/v1/2021.lchange-1.6.
+> Keersmaekers, Alek (2021): The GLAUx corpus: methodological issues in designing a long-term, diverse, multi-layered corpus of Ancient Greek. *Proceedings of the 2nd International Workshop on Computational Approaches to Historical Language Change 2021*, 39–50. Online: Association for Computational Linguistics. doi [10.18653/v1/2021.lchange-1.6](https://doi.org/10.18653/v1/2021.lchange-1.6).
 
 To cite this repository specifically, and/or to access its archival version on Zenodo, see:
 > Bilby, Mark G. "CATnaPS: Searchable and Citable Strings of Ancient Greek Lemmata and Morphological Tags". Release 0.2.0. 2025-05-22. doi: [10.5281/zenodo.15508287](https://doi.org/10.5281/zenodo.15508287)
