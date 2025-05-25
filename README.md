@@ -9,7 +9,7 @@ This repository prunes down openly available, complex syntactical treebanks (XML
 Essentially, texts are presented in their normal running sequence, but each word is split into two parts, and a "@" delimiter is put between them, kind of like an email address. 
 The part to the left of the "@" symbol is the standard dictionary word form (lemma).
 
-The part to the right is the one to seven character BGM morphological tag describing the word form (part of speech, person, number, tense, mood, voice, gender, case, and degree). A key to the BGM schema is available on [Zenodo](https://doi.org/10.5281/zenodo.10066745). 
+The part to the right is the one to seven character BGM morphological tag describing the word form (part of speech, person, number, tense, mood, voice, gender, case, and degree). A [key to the BGM schema](https://doi.org/10.5281/zenodo.10066745) is available on Zenodo.
 
 This format has several advantages for computational linguistics research:
 - it reflects the internal reference structure of documents (e.g., books, sections, chapters, verses, line numbers), making it easier to correlate with human readable editions and translations
