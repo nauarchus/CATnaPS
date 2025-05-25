@@ -18,7 +18,7 @@ This format has several advantages for computational linguistics research:
 - it allows for a range of searches, from simple word searches to more advanced regex searches of multiple word strings and morphological patterns
 - it simplifies document retrieval and identification by providing just one file per document
 
-These advantages are shared with the AGDTiny repository. But the BGM data may be easier for many to use, can usually be searched with shorter and less complex regex strings, and its strings lend themselves more easily to citation in scholarly publications.
+These advantages are shared with the AGDTmini repository. But the BGM data may be easier for many to use, can usually be searched with shorter and less complex regex strings, and its strings lend themselves more easily to citation in scholarly publications.
 
 ## File and Directory Names and Structures
 
